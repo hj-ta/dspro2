@@ -1,0 +1,302 @@
+﻿  BpTree.cpp
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTreeNode.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../../../dss/DS_Project2_2024_2/DS_Project_2_2024_2-main/BpTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(56,23): error C3861: 'getFirstKey': 식별자를 찾을 수 없습니다.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(94,57): error C2039: 'getFirstName': 'BpTreeNode'의 멤버가 아닙니다.
+      C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTreeNode.h(3,7):
+      'BpTreeNode' 선언을 참조하십시오.
+  
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(135,27): error C2429: 언어 기능 '구조적 바인딩'에 컴파일러 플래그 '/std:c++17'이(가) 필요합니다.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,21): error C2677: 이항 '>=': 'std::string' 형식을 사용하는 전역 연산자가 없거나 허용되는 변환이 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stack(194,17):
+      'bool std::operator >=(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)'일 수 있습니다.
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)': 'unknown-type'에서 'const std::stack<_Ty,_Container> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\queue(207,17):
+      또는       'bool std::operator >=(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)': 'unknown-type'에서 'const std::queue<_Ty,_Container> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\deque(1824,17):
+      또는       'bool std::operator >=(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)': 'unknown-type'에서 'const std::deque<_Ty,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(2350,30):
+      또는       'bool std::operator >=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': 'unknown-type'에서 'const std::vector<_Ty,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(671,17):
+      또는       'bool std::operator >=(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)': 'unknown-type'에서 'const std::multimap<_Kty,_Ty,_Pr,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(435,17):
+      또는       'bool std::operator >=(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)': 'unknown-type'에서 'const std::map<_Kty,_Ty,_Pr,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\tuple(875,27):
+      또는       'bool std::operator >=(const std::tuple<_Types...> &,const std::tuple<_Types...> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::tuple<_Types...> &,const std::tuple<_Types...> &)': 'unknown-type'에서 'const std::tuple<_Types...> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3720,30):
+      또는       'bool std::operator >=(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)': 'std::string'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3715,30):
+      또는       'bool std::operator >=(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)': 'unknown-type'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3653,17):
+      또는       'bool std::operator >=(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)': 'unknown-type'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1953,17):
+      또는       'bool std::operator >=(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept': 'std::string'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1948,17):
+      또는       'bool std::operator >=(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept': 'unknown-type'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1896,17):
+      또는       'bool std::operator >=(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept': 'unknown-type'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3347,17):
+      또는       'bool std::operator >=(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept': 'unknown-type'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3341,17):
+      또는       'bool std::operator >=(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': 'unknown-type'에서 'const _Elem *const '에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3335,17):
+      또는       'bool std::operator >=(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': 'unknown-type'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4448,30):
+      또는       'bool std::operator >=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': 'unknown-type'에서 'const std::move_iterator<_Iter> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1911,5):
+      또는       'bool std::operator >=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': 'unknown-type'에서 'const std::reverse_iterator<_BidIt> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(530,27):
+      또는       'bool std::operator >=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,17):
+          'bool std::operator >=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)': 'unknown-type'에서 'const std::pair<_Ty1,_Ty2> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+  
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,37): error C2677: 이항 '<=': 'std::string' 형식을 사용하는 전역 연산자가 없거나 허용되는 변환이 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stack(189,17):
+      'bool std::operator <=(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)'일 수 있습니다.
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)': 'unknown-type'에서 'const std::stack<_Ty,_Container> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\queue(202,17):
+      또는       'bool std::operator <=(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)': 'unknown-type'에서 'const std::queue<_Ty,_Container> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\deque(1814,17):
+      또는       'bool std::operator <=(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)': 'unknown-type'에서 'const std::deque<_Ty,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(2345,30):
+      또는       'bool std::operator <=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': 'unknown-type'에서 'const std::vector<_Ty,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(665,17):
+      또는       'bool std::operator <=(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)': 'unknown-type'에서 'const std::multimap<_Kty,_Ty,_Pr,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(430,17):
+      또는       'bool std::operator <=(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)': 'unknown-type'에서 'const std::map<_Kty,_Ty,_Pr,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\tuple(885,27):
+      또는       'bool std::operator <=(const std::tuple<_Types...> &,const std::tuple<_Types...> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::tuple<_Types...> &,const std::tuple<_Types...> &)': 'unknown-type'에서 'const std::tuple<_Types...> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3740,30):
+      또는       'bool std::operator <=(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)': 'std::string'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3735,30):
+      또는       'bool std::operator <=(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)': 'unknown-type'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3663,17):
+      또는       'bool std::operator <=(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)': 'unknown-type'에서 'const std::unique_ptr<_Ty,_Dx> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1973,17):
+      또는       'bool std::operator <=(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept': 'std::string'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1968,17):
+      또는       'bool std::operator <=(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept': 'unknown-type'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1906,17):
+      또는       'bool std::operator <=(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept': 'unknown-type'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3329,17):
+      또는       'bool std::operator <=(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept': 'unknown-type'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3323,17):
+      또는       'bool std::operator <=(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': 'unknown-type'에서 'const _Elem *const '에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3317,17):
+      또는       'bool std::operator <=(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': 'unknown-type'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4438,30):
+      또는       'bool std::operator <=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': 'unknown-type'에서 'const std::move_iterator<_Iter> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(1898,5):
+      또는       'bool std::operator <=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': 'unknown-type'에서 'const std::reverse_iterator<_BidIt> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(525,27):
+      또는       'bool std::operator <=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+          C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(136,33):
+          'bool std::operator <=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)': 'unknown-type'에서 'const std::pair<_Ty1,_Ty2> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+  
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(137,17): error C2593: 'operator <<'이(가) 모호합니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(486,39):
+      'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'일 수 있습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(454,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(436,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(418,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(400,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(382,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(364,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(346,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(328,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(309,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(283,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(264,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(230,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(212,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(206,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(200,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(195,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1088,32):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(953,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(947,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(942,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(936,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(819,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(774,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(738,32):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(694,32):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(137,17):
+      인수 목록 '(std::ostream, unknown-type)'을(를) 일치시키는 동안
+  
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(162,27): error C2429: 언어 기능 '구조적 바인딩'에 컴파일러 플래그 '/std:c++17'이(가) 필요합니다.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(163,13): error C2593: 'operator <<'이(가) 모호합니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(486,39):
+      'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'일 수 있습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(454,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(436,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(418,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(400,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(382,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(364,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(346,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(328,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(309,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(283,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(264,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(230,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(212,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(206,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(200,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(195,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1088,32):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(953,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(947,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(942,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(936,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(819,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(774,31):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(738,32):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(694,32):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTree.cpp(163,13):
+      인수 목록 '(std::ofstream, unknown-type)'을(를) 일치시키는 동안
+  
+  main.cpp
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTreeNode.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../../../dss/DS_Project2_2024_2/DS_Project_2_2024_2-main/main.cpp'을(를) 컴파일하는 중)
+  
+  Manager.cpp
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\BpTreeNode.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../../../dss/DS_Project2_2024_2/DS_Project_2_2024_2-main/Manager.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\Manager.cpp(95,33): error C3861: 'trim': 식별자를 찾을 수 없습니다.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\Manager.cpp(96,34): error C3861: 'trim': 식별자를 찾을 수 없습니다.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\Manager.cpp(97,33): error C3861: 'trim': 식별자를 찾을 수 없습니다.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\Manager.cpp(98,40): error C3861: 'trim': 식별자를 찾을 수 없습니다.
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\Manager.cpp(98,35): error C2668: 'std::stoi': 오버로드된 함수에 대한 호출이 모호합니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\string(264,35):
+      'int std::stoi(const std::wstring &,size_t *,int)'일 수 있습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\string(88,35):
+      또는       'int std::stoi(const std::string &,size_t *,int)'
+      C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\Manager.cpp(98,35):
+      인수 목록 '(unknown-type)'을(를) 일치시키는 동안
+  
+C:\Users\suzy1\Desktop\dss\DS_Project2_2024_2\DS_Project_2_2024_2-main\Manager.cpp(99,28): error C3861: 'trim': 식별자를 찾을 수 없습니다.
+  코드를 생성하고 있습니다...
